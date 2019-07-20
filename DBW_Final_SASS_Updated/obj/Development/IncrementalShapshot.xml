@@ -1,0 +1,124 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DBW_Final_SASS_Updated</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>v/uaNj1qskKCuz/ZyD2TF/HmGmk=7/20/2019 2:44:19 PM7/20/2019 2:33:32 PM</TimeStamp>
+        <ID>
+          <String>DBW Final 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>WInvJYNZVdEnDpT4LeDCsCwJYSo=7/20/2019 2:42:35 PM7/20/2019 2:33:53 PM</TimeStamp>
+        <ID>
+          <String>DBW Final</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jZU0JgHANEqq8bayeyBUHNSM0s8=7/20/2019 2:45:27 PM7/20/2019 2:34:17 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>i+0/iCDKjNnMMbjZk6/13zLw9z4=7/20/2019 8:56:01 PM7/20/2019 2:46:38 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cWPvgDLtYvFRl1z0mXu+xSYEGXE=7/20/2019 3:29:29 PM7/20/2019 2:47:55 PM</TimeStamp>
+        <ID>
+          <String>Dim Item</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ep93f37+n26VeAHS2t7UrkJVCnA=7/20/2019 2:49:29 PM7/20/2019 2:48:56 PM</TimeStamp>
+        <ID>
+          <String>Dim Store</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>p4Fv3unK8jS7VFKsXvuHZw8KuFs=7/20/2019 3:28:37 PM7/20/2019 2:54:01 PM2vOElEnjkOvEXPglaOB9sakn4Bo=7/20/2019 2:54:01 PM7/20/2019 2:54:01 PM</TimeStamp>
+        <ID>
+          <String>Date_Location_Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>5klxJrrg2cSGtabYYUHPCxZv/M0=7/20/2019 3:32:50 PM7/20/2019 2:56:48 PM/3QuZ28NvRhijlrO2GSqml0IAfQ=7/20/2019 2:56:48 PM7/20/2019 2:56:48 PM</TimeStamp>
+        <ID>
+          <String>DBW Final</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>JT3pDmghYOwi8G8gJXLw/kO3GyQ=7/20/2019 3:28:37 PM7/20/2019 2:58:49 PMHo/e5Nd9XR7lVgN/VjofAPLnDXA=7/20/2019 2:58:50 PM7/20/2019 2:58:50 PM</TimeStamp>
+        <ID>
+          <String>Date_Item_Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Knpt2vciqWKrbRrfhUuU+KTrIuc=7/20/2019 3:00:35 PM7/20/2019 3:00:35 PMx91LNejTtrMflr2SoJV/JrLIgeE=7/20/2019 3:00:35 PM7/20/2019 3:00:35 PM</TimeStamp>
+        <ID>
+          <String>Customer_Date_Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>86fCn/NNKQFn6ablS4sgOdPAocs=7/20/2019 3:02:22 PM7/20/2019 3:02:05 PMfVp671IcakrRlJ12olg/pAbIVbU=7/20/2019 3:02:05 PM7/20/2019 3:02:05 PM</TimeStamp>
+        <ID>
+          <String>DBW Final 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>DxIBIcf8b7GTP7CBJtIxvm4lweU=7/20/2019 3:28:37 PM7/20/2019 3:05:34 PMX/jlCXuQ3W3by7mHmYPieIoNotY=7/20/2019 3:05:34 PM7/20/2019 3:05:34 PM</TimeStamp>
+        <ID>
+          <String>Customer_Item_Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>1MwmbjWHeZInD4NfbP8fTn5ci3w=7/20/2019 8:22:54 PM7/20/2019 8:22:54 PMptmw0vqIuOvhm8VYnxBuFXkX5ts=7/20/2019 8:22:54 PM7/20/2019 8:22:54 PM</TimeStamp>
+        <ID>
+          <String>Date_Item_Location_Cube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>ffHKpYnAAuKdR/2EJiZloAaHNHQ=7/20/2019 2:31:33 PM7/20/2019 2:31:33 PM</TimeStamp>
+      <ID>
+        <String>DBW_Final_SASS_Updated</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-07-20T15:31:10.06Z</LastDeployed>
+</DeploymentSnapshot>

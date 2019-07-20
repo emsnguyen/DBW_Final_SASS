@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DBW_Final_SASS_Updated", "DBW_Final_SASS_Updated\DBW_Final_SASS_Updated.dwproj", "{022C450F-A112-46FF-83BB-ADD41543BD7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{022C450F-A112-46FF-83BB-ADD41543BD7A}.Debug|Any CPU.ActiveCfg = Development
+		{022C450F-A112-46FF-83BB-ADD41543BD7A}.Debug|Any CPU.Build.0 = Development
+		{022C450F-A112-46FF-83BB-ADD41543BD7A}.Debug|Any CPU.Deploy.0 = Development
+		{022C450F-A112-46FF-83BB-ADD41543BD7A}.Development|Any CPU.ActiveCfg = Development
+		{022C450F-A112-46FF-83BB-ADD41543BD7A}.Development|Any CPU.Build.0 = Development
+		{022C450F-A112-46FF-83BB-ADD41543BD7A}.Development|Any CPU.Deploy.0 = Development
+		{022C450F-A112-46FF-83BB-ADD41543BD7A}.Release|Any CPU.ActiveCfg = Development
+		{022C450F-A112-46FF-83BB-ADD41543BD7A}.Release|Any CPU.Build.0 = Development
+		{022C450F-A112-46FF-83BB-ADD41543BD7A}.Release|Any CPU.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE0901E3-DA87-4738-AD08-E4398498401A}
+	EndGlobalSection
+EndGlobal
