@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -108,6 +108,13 @@
           <String>Date_Item_Location_Cube</String>
         </ID>
       </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Lc6rZmbtPC4mI4SLK+0Ngy9sxz8=7/22/2019 4:41:36 PM7/22/2019 4:41:36 PMoXyMbBCEvjB1XlMY18Mj2+0nmxM=7/22/2019 4:41:36 PM7/22/2019 4:41:36 PM</TimeStamp>
+        <ID>
+          <String>Customer_Date_Item_Location_Cube</String>
+        </ID>
+      </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
@@ -120,5 +127,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-07-20T15:31:10.06Z</LastDeployed>
+  <LastDeployed>2019-07-22T09:44:29.446667Z</LastDeployed>
 </DeploymentSnapshot>

@@ -181,6 +181,19 @@
           </MeasureGroup>
         </MeasureGroups>
       </Cube>
+      <Cube>
+        <ID>Customer_Date_Item_Location_Cube</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Sales Fact Table</ID>
+            <Partitions>
+              <Partition>
+                <ID>Sales Fact Table</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
     </Cubes>
     <DataSourceImpersonationInfo>
       <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
